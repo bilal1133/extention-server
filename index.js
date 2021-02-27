@@ -27,10 +27,14 @@ app.post("/ping", (req, res) => {
 ///=====================  STARTING AND LISTINING
 app.listen(port || 3000, function () {
   console.log("--------------------------------");
+  console.log("--------------------------------");
   console.log(
     "Express server listening on port %d in %s mode",
     this.address().port,
     app.settings.env
   );
+  console.log("--------------------------------");
+  console.log("--------------------------------");
+  console.log("--------------------------------");
   console.log("--------------------------------");
 });
